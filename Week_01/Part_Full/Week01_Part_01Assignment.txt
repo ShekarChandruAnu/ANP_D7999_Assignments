@@ -1,0 +1,60 @@
+Assignment Part 01
+
+
+ASSIGNMENT:01
+1) In the Given scenario (Problem Statement 01) apply the same logic of Stack in terms of Real Strings which are to be accepted from user
+like
+InsertData/updateData/deleteData etc
+which have to be stored in a Stack and operated upon...
+Create an app with Stack of Strings which should Push 
+opposite to Insert--> Delete
+opposite to Delete --> Insert
+opposite to update x to y-->update y-> x
+
+Create a Module with Push & Pop operations
+Make the size of the Stack dynamic (based on users entry it can be defined)
+
+[Need not do the following this is Class Demo based on the following Problem statement do the above]
+
+		Problem Statement :01
+1) 
+As part of the Development Team in "ABC Consultants"
+You are asked to develop module for "UNDO" operations in an application,
+you may perform for example the following operations
+insert a---> 100
+delete b ---> 200
+update x to y -->300
+when we "undo" in the order
+we are representing these operations in terms of values 100,200,300[Denoted by integers]
+In reverse of their respective Operations
+
+for the first undo " y is to be updated back to x"
+second undo " b is to be reinserted"
+third undo "a is to be deleted"
+
+Identify the DataStructure you can choose
+Simulate this using Data Structure, even though we can  use PreDefined Collections
+you are asked to use DataSTructures since lot of customization is involved
+
+
+Expected solution after brainstorming : stack
+Implementation demo - interactive
+
+			ASSIGNMENT 02
+Problem Statement 02 : Next you are developing a module to process the Orders
+in first come first serve basis
+simulate the activity using a Data Structure, again due to excessive customization
+we are simulating the activity
+Order s when arrived they have to be stored in the same order
+and after processing they can be removed from the structure
+Order Nos are to be accumulated and deleted accordingly
+
+Enqueue Dequeue
+
+Expected solution after brainstorming : queue
+Implementation demo - interactive
+
+2) In the GivenScenario (Problem Statement 02) modify the Solution to take real Objects of Order type
+Order includes OrderId, OrderDate,OrderQty,OrderValue
+Create array of Objects
+Perform operations Enqueue/Dequeue
